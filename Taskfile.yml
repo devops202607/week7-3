@@ -32,7 +32,7 @@ tasks:
           git commit -m "chore: release $NEW"
           git tag "$NEW"
           echo "Tag $NEW created locally. To release, run:"
-          echo "  git push --follow-tags origin $BRANCH"
+          echo "  git push --follow-tags origin $BRANCH && git push origin $NEW"
         silent: true
 
   current:
