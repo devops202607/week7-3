@@ -2,8 +2,8 @@ project_id   = "devops202607"
 region       = "us-central1"
 cluster_name = "week7-3"
 node_count   = 3
-machine_type = "e2-small"
-disk_size_gb = 12
+machine_type = "e2-medium"
+disk_size_gb = 20
 
 github_owner = "devops202607"
 github_repo  = "week7-3"
