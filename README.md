@@ -46,7 +46,7 @@ Terraform will:
 ### 2. Configure kubectl
 
 ```bash
-gcloud container clusters get-credentials week7-3 --region us-central1 --project devopst202607
+gcloud container clusters get-credentials week7-3 --region us-central1-a --project devops202607
 ```
 
 ### 3. Create ghcr.io pull secret
